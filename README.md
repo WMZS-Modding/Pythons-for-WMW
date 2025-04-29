@@ -1,5 +1,5 @@
 # Pythons for WMW
-A very small open-source code for any WMW games
+A small open-source code for any WMW games. This was many pythons can helping you when you were edit XML levels
 ## AbsoluteLocationChanger
 
 A simple Python script to shift all AbsoluteLocation values in a given XML file.
