@@ -8,6 +8,7 @@ A simple Python script to shift all AbsoluteLocation values in a given XML file.
 
 ```bash
 python AbsoluteLocationChanger.py "{input_xml}" -o "{output_xml}" -value "{x y}"
+```
 
 - `input_xml`: path to XML level
 - `output_xml`: name of the XML you want to save
@@ -21,6 +22,7 @@ A modified script of AbsoluteLocationChanger.py. This script is still shift all 
 
 ```bash
 python AbsoluteLocationChanger2.py "{input_xml}" -o "{output_xml}" -value "{x y}" -hs "{hs_name}, {hs_name_2},..."
+```
 
 - `input_xml`: path to XML level
 - `output_xml`: name of the XML you want to save
