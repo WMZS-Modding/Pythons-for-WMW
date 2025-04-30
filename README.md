@@ -30,7 +30,7 @@ python AbsoluteLocationChanger2.py "{input_xml}" -o "{output_xml}" -value "{x y}
 - `hs_name, hs_name_2,...`: name of the HS file in Filename you want to change only (it'll find the path on `value` after `Filename`, you should write correct path of `value` after `Filename`)
 
 ## PathPointsExtractor
-**PathPointsExtractor** is a Python script that extracts simplified path points from black pixel lines (typically 1-pixel wide) in grayscale images — useful for path-based gameplay, navigation systems, or visual logic tools.
+**PathPointsExtractor** is a Python script that extracts simplified path points from black pixel lines (typically 1-pixel wide) in grayscale images − useful for path-based gameplay, navigation systems, or visual logic tools.
 ### Features
 - Extracts a path from black pixels in an image (e.g., hand-drawn in MS Paint)
 - Simplifies the path using angular thresholds and minimum distance
@@ -50,7 +50,7 @@ python PathPointsExtractor.py input_image.png -o output.txt
 ### Notes
 - Ensure the path is 1-pixel wide, made with pure black (RGB 0,0,0) on a white background.
 - The path should not loop back to the start; closed loops may be ignored.
-- Endpoints like 0.0 0.0 may appear if the drawing touches image corners — feel free to remove them manually.
+- Endpoints like 0.0 0.0 may appear if the drawing touches image corners − feel free to remove them manually.
 - Works best on straight or clearly defined paths. Jagged or overlapping lines might produce noisy results.
 ### Dependencies
 Make sure to install the required Python libraries:
