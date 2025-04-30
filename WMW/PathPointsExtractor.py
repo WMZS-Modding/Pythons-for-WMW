@@ -17,7 +17,6 @@ def pad_image(img, pad=2):
     return np.pad(img, pad_width=pad, mode='constant', constant_values=0)
 
 def skeleton_to_graph(skeleton):
-    import networkx as nx
     G = nx.Graph()
     h, w = skeleton.shape
 
