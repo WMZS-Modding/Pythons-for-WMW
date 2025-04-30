@@ -42,7 +42,7 @@ python PathPointsExtractor.py input_image.png -o output.txt
 - `input_image.png`: A grayscale image with a black path on a white background
 - `output.txt`: The file to save the extracted path points (comma-separated x y pairs)
 ### Output Format
-- The script saves the result as a single line: `x1 y1, x2 y2, x3 y3....`
+- The script saves the result as a single line: `x1 y1, x2 y2, x3 y3,...`
 - This code you can paste on XML:
 ```XML
 <Property name="PathPoints" value="x1 y1, x2 y2, x3 y3,..."/>
