@@ -16,7 +16,7 @@ python AbsoluteLocationChanger.py "{input_xml}" -o "{output_xml}" -value "{x y}"
 
 ## AbsoluteLocationChanger2
 
-A modified script of AbsoluteLocationChanger.py. This script is still shift all AbsoluteLocation values in a given XML file, but it's only change AbsoluteLocation in HS file in Filename.
+A modified script of `AbsoluteLocationChanger.py`. This script is still shift all AbsoluteLocation values in a given XML file, but it's only change `AbsoluteLocation` in `HS` file in `Filename`.
 
 ### Usage
 
@@ -50,7 +50,7 @@ python PathPointsExtractor.py input_image.png -o output.txt
 ### Notes
 - Ensure the path is 1-pixel wide, made with pure black (RGB 0,0,0) on a white background.
 - The path should not loop back to the start; closed loops may be ignored.
-- Endpoints like 0.0 0.0 may appear if the drawing touches image corners − feel free to remove them manually.
+- Endpoints like `0.0 0.0` may appear if the drawing touches image corners − feel free to remove them manually.
 - Works best on straight or clearly defined paths. Jagged or overlapping lines might produce noisy results.
 ### Dependencies
 Make sure to install the required Python libraries:
