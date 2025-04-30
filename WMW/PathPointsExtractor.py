@@ -102,7 +102,7 @@ def save_path_points(path_points, output_path):
     text = ','.join(f"{x} {y}" for (x, y) in path_points)
     with open(output_path, 'w') as f:
         f.write(text)
-    print(f"[*] Saved PathPoints to {output_path}: {text}")
+    print(f"[*] Saved PathPoints to {output_path}")
 
 def main():
     parser = argparse.ArgumentParser()
