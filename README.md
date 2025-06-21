@@ -16,7 +16,7 @@ python AbsoluteLocationChanger.py "{input_xml}" -o "{output_xml}" -value "{x y}"
 
 ## AbsoluteLocationChanger2
 
-A modified script of `AbsoluteLocationChanger.py`. This script is still shift all `AbsoluteLocation` values in a given XML file, but it's only change `AbsoluteLocation` in `HS` file in `Filename`.
+A modified script of `AbsoluteLocationChanger.py`. This script is still shift all `AbsoluteLocation` values in a given XML file, but it's only change `AbsoluteLocation` of `HS` file of `Filename`.
 
 ### Usage
 
